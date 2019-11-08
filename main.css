@@ -1,0 +1,129 @@
+@font-face {
+    font-family: CenturyGothic;
+    src: url(911Fonts.com_CenturyGothicRegular__-_911fonts.com_fonts_mhpY.ttf);
+}
+*
+{
+    margin:0px;
+    padding:0px;
+    font-family: CenturyGothic;
+}
+.container
+{
+    width:100%;
+}
+.wrapper
+{
+    width: auto;
+}
+.dark
+{
+    background-color: #31353d;
+    color: white;
+}
+.light
+{
+    background-color: #e9edf2;
+}
+#top-left
+{
+    display:inline-block;
+    font-family: CenturyGothic;
+    font-size: 5vw;
+    padding-top: 10px;
+}
+#top-right
+{
+    float: right;
+    font-family: CenturyGothic;
+    font-size: 2vw;
+    padding: 10px;
+    
+}
+#top-div
+{
+    height:7vw;
+    line-height: 40px;
+}
+#logo-left
+{
+    display:inline-block;
+    padding-top: 10px;
+    cursor: pointer;
+}
+#logo-right
+{
+    float: right;
+    margin-top: 50px;
+    font-family: CenturyGothic;
+    font-size: 2vw;
+}
+#textstyle
+{
+    height:30px;
+    border-radius: 8px;
+}
+#clear
+{
+    clear:both;
+}
+
+#partname{
+    display: inline;
+    font-size: 2vw;
+}
+
+#partdescription{
+    display: inline;
+    font-size: 1.9vw;
+}
+
+
+ul{
+
+}
+ul li{
+    width: 30vw;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+ul li a:hover{
+    background-color: orange;
+    color: black;
+}
+h3{
+    text-align: center;
+}
+.wrapperQuestion{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    font-weight: bold;
+    font-size: 19px;
+}
+.wrapperAnswer{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+#indent{
+    padding-left: 100px;
+    padding-top: 5px;
+    list-style-type:circle;
+    padding-bottom: 5px;
+}
+
+ol{
+    padding-left: 20px;
+    list-style-type: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
